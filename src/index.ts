@@ -24,7 +24,7 @@ interface PossibleVariant5 extends DataTemplate5 {
 };
 
 interface ObjectWidthIndexSignature  {
-    [key: number]: any
+    [key: number | string]: any;
 }
 
 function checkKeysNumbers(obj: ObjectWidthIndexSignature) {
